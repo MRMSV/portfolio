@@ -5234,14 +5234,48 @@ hr {
 
 /* line 644, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_blog_page.scss */
 .blog_details h2 {
+  color: #2d2d2d;
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 8px;
 }
 
+.blog_details h1 {
+  color: #2d2d2d;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+@media (min-width: 768px) {
+  /* line 644, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_blog_page.scss */
+  .blog_details h1 {
+    color: #2d2d2d;
+    font-size: 26px;
+    margin-bottom: 15px;
+  }
+}
+
+.blog_details h3 {
+  color: #2d2d2d;
+  font-size: 16px;
+  font-weight: 450;
+  margin-bottom: 8px;
+}
+
+@media (min-width: 768px) {
+  /* line 644, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_blog_page.scss */
+  .blog_details h3 {
+    color: #2d2d2d;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+}
+
 @media (min-width: 768px) {
   /* line 644, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_blog_page.scss */
   .blog_details h2 {
+    color: #2d2d2d;
     font-size: 24px;
     margin-bottom: 15px;
   }
